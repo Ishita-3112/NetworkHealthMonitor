@@ -1,0 +1,11 @@
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local databases and monitoring data
+*.db
+monitoring_history.csv
+

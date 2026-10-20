@@ -1,0 +1,49 @@
+
+[
+    {
+        "name": "Google DNS",
+        "ip": "8.8.8.8",
+        "tcp_checks": [
+            {
+                "name": "HTTPS",
+                "port": 443
+            }
+        ]
+    },
+    {
+        "name": "Cloudflare DNS",
+        "ip": "1.1.1.1",
+        "tcp_checks": [
+            {
+                "name": "HTTPS",
+                "port": 443
+            }
+        ]
+    },
+    {
+        "name": "Failure Test Device",
+        "ip": "192.0.2.1",
+        "tcp_checks": []
+    },
+    {
+        "name": "Google Web Server",
+        "ip": "google.com",
+        "tcp_checks": [
+            {
+                "name": "HTTPS",
+                "port": 443
+            }
+        ]
+    },
+    {
+        "name": "Cloudflare Web Server",
+        "ip": "cloudflare.com",
+        "tcp_checks": [
+            {
+                "name": "HTTPS",
+                "port": 443
+            }
+        ]
+    }
+]
+
